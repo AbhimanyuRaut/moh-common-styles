@@ -12,7 +12,8 @@
        [textMask]="{mask: mask, pipe: upperCasePipe}"
        [pattern]='pcFormat'
        [required]="required"
-       [disabled]="disabled" />
+       [disabled]="disabled"
+       autocomplete="off"/>
 
   <!-- Error messages for input -->
   <div *ngIf="!disabled && postalRef.touched"
@@ -39,7 +40,8 @@
          (ngModelChange)="onUpdate($event)"
          [required]="required"
          [disabled]="disabled"
-         maxlength="{{maxlen}}"/>
+         maxlength="{{maxlen}}"
+         autocomplete="off"/>
 
   <!-- Error messages for input -->
   <div *ngIf="!disabled && postalRef.touched"
