@@ -1,6 +1,6 @@
 {
   "name": "moh-common-styles",
-  "version": "0.0.29-revert",
+  "version": "0.0.29-captcha",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
